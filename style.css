@@ -8,9 +8,18 @@ body {
     margin: 0 auto
 }
 
+h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+
 @media (max-width: 1440px){
     .wrapper {
         max-width: 970px;
+    }
+    .h1 {
+        font-size: small;
     }
 }
 
@@ -18,12 +27,14 @@ body {
     .wrapper {
         max-width: 750px;
     }
+    
 }
 
 @media (max-width: 750px){
     .wrapper {
         max-width: 400px;
     }
+    
 }
 
 @media (max-width: 750px){
@@ -83,9 +94,7 @@ li {
 }
 
 .Onas {
-    display:flex;
-    justify-content: center;
-    text-align: justify;
+    text-align: center;
     font-size: 64px;
 }
 
@@ -95,8 +104,7 @@ li {
     font-size: 24px;
     text-align: center;
     font-family: Roboto;
-    padding: 0px 258px 100px 258px;
-    text-align: justify;    
+    padding-bottom: 60px;   
 }
 
 .sec2 {
@@ -159,7 +167,7 @@ li {
 
 .container3 {
     display:flex;
-    justify-content: space-between;
+    
 }
     
 .Rights {
@@ -247,10 +255,9 @@ li {
     width: 100%;
     border: none;
     text-align: left;
-    outline: none;
+    outline: 10px;
     font-size: 15px;
-    margin:auto
-    
+    margin-bottom: 10px;
   }
   
   .active, .collapsible:hover {
@@ -262,7 +269,7 @@ li {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: transparent;
   }
   .arrow {
     width: 8px;
